@@ -1,8 +1,8 @@
 /* CSS Custom Properties for reusability */
 :root {
-    --primary-color: #ff4500;
-    --text-color: #d3d3d3;
-    --dark-bg: rgba(0, 0, 0, 0.95);
+    --primary-color: #ff0000;
+    --text-color: #ff0000;
+    --dark-bg: rgba(255, 255, 255, 0.95);
     --shadow-color: rgba(255, 69, 0, 0.8);
     --transition-fast: 0.3s ease;
 }
@@ -70,7 +70,8 @@ nav {
 }
 
 .logo:hover {
-    transform: scale(1.05);
+    position: relative;
+    transform: scale(2);
 }
 
 nav ul {
@@ -116,7 +117,7 @@ nav ul li a:hover::after {
 header {
     text-align: center;
     padding: 6rem 1rem 3rem;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     border-bottom: 2px solid var(--primary-color);
 }
 
@@ -131,7 +132,7 @@ h1 {
 
 .subtitle {
     font-size: 1.5rem;
-    color: #808080;
+    color: #ffffff;
     margin: 1rem 0;
     font-weight: 600;
     opacity: 0;
@@ -169,7 +170,7 @@ button#easterEggBtn1:hover {
 
 /* Interactive Elements */
 .ghost, .star, .pumpkin {
-    font-size: 3rem;
+    font-size: 250%;
     color: var(--text-color);
     cursor: pointer;
     display: inline-block;
