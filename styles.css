@@ -71,7 +71,7 @@ nav {
 
 .logo:hover {
     position: relative;
-    transform: scale(2);
+    transform: scale(1.25);
 }
 
 nav ul {
@@ -122,9 +122,9 @@ header {
 }
 
 h1 {
-    font-family: 'Creepster', cursive;
+    font-family: 'Comic Sans MS', cursive;
     font-size: 4rem;
-    color: var(--primary-color);
+    color: var(#808080);
     margin: 0;
     opacity: 0; /* Start hidden */
     animation: fadeIn 1.5s ease forwards; /* Smooth appearance */
