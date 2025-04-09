@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Image with Button</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    img {
+      max-width: 80%;
+      max-height: 60%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+    }
+
+    .custom-button {
+      display: inline-block;
+      text-decoration: none;
+      background: linear-gradient(135deg, #ff0000, #000000);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-button:hover {
+      background: linear-gradient(135deg, #000000, #ff0000);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+    }
+
+    .custom-button:active {
+      transform: scale(0.97);
+      box-shadow: 0 2px 10px rgba(255, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <img src="Image (10).jfif" alt="Centered Image">
+  <a href="images.html" class="custom-button">Go to Images</a>
+</body>
+</html>
