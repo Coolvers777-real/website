@@ -252,7 +252,7 @@ button#easterEggBtn1:hover {
   }
   
   .custom-button:hover {
-    background: linear-gradient(135deg, #000000, #ff0000);
+    background: linear-gradient(135deg, #ff0000, #000000);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
   }
